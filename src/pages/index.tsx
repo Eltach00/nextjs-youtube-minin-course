@@ -1,8 +1,9 @@
+import { MainLayout } from "@/components/main-layout";
 import Link from "next/link";
 
 export default function Home() {
   return (
-    <>
+    <MainLayout>
       <h1>Hello there!</h1>
       <p>
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque, quo
@@ -10,12 +11,6 @@ export default function Home() {
         cumque necessitatibus eveniet sapiente, dolorem ullam laboriosam quia
         sint dolor consequuntur id.
       </p>
-      <p>
-        <Link href={"about"}>About</Link>
-      </p>
-      <p>
-        <Link href="posts">Posts</Link>
-      </p>
-    </>
+    </MainLayout>
   );
 }

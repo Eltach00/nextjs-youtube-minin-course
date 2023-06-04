@@ -92,3 +92,7 @@ a {
     color-scheme: dark;
   }
 }
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
